@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<META NAME="Desciption"
+	CONTENT="Présentation du cursus scolaire et des projets de flavien bert">
+<META NAME="Keywords" CONTENT="Flavien,bert,portfolio,cpe">
+<META NAME="Author" CONTENT="Flavien Bert">
+<META NAME="Identifier-URL" CONTENT="http://www.flavienbert.fr">
+<META NAME="Copyright" CONTENT="Flavien Bert">
+<META NAME="Publisher" CONTENT="Flavien Bert">
+<META NAME="Reply-to" CONTENT="bert.flavien@gmail.com">
+
+
+
+
+<title>Bert Flavien - Accueil</title>
+<!-- Bootstrap -->
+<link rel="icon" type="image/png" href="img/title.png" />
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="css/style.css" media="screen" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/scrollTop.js"></script>
+<script>
+	function visibilite(thingId) {
+		var targetElement;
+		targetElement = document.getElementById(thingId);
+		if (targetElement.style.display == "none") {
+			targetElement.style.display = "";
+		} else {
+			targetElement.style.display = "none";
+		}
+	}
+
+	function close(thingId) {
+		var targetElement;
+		targetElement = document.getElementById(thingId);
+		targetElement.style.display = "none";
+	}
+</script>
+<body>
+
+	<header>
+		<div id="navigation_principale">
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="navbar navbar-static-top">
+						<div class="container">
+							<a class="brand" href="#">Flavien Bert - Portfolio </a>
+							<ul class="nav">
+								<li class="active"><a href="index.html"> <img
+										src="img/icons/maison.png" width="21px" height="21px">
+										&nbsp;Accueil
+								</a></li>
+								<li class="divider-vertical"></li>
+								<li><a href="presentation.html"><img
+										src="img/icons/propos2.png" width="25px" height="22px">
+										À Propos</a></li>
+								<li class="divider-vertical"></li>
+								<li><a href="cv.php"><img src="img/icons/livre1.png"
+										width="25px" height="22px"> CV</a></li>
+								<li class="divider-vertical"></li>
+								<li><a href="projet.php"><img
+										src="img/icons/valise.png" width="21px" height="21px">
+										&nbsp;&nbsp;Projets</a></li>
+								<li class="divider-vertical"></li>
+								<li><a href="contact.php"><img
+										src="img/icons/email.png" width="21px" height="21px">
+										&nbsp;Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu">
+			<div class="btn-group">
+				<a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown"
+					href="#"> <span>Portfolio - MENU</span> &nbsp;&nbsp;<img
+					src="img/list.png" width="30px" height="30px">
+				</a>
+				<ul class="dropdown-menu">
+					<li class="active"><a href="index.html"> <img
+							src="img/icons/maison.png" width="21px" height="21px">
+							&nbsp;Accueil
+					</a></li>
+					<li><a href="presentation.html"><img
+							src="img/icons/propos2.png" width="25px" height="22px"> À
+							Propos</a></li>
+					<li><a href="cv.php"><img src="img/icons/livre1.png"
+							width="25px" height="22px"> CV</a></li>
+					<li><a href="projet.php"><img src="img/icons/valise.png"
+							width="21px" height="21px"> &nbsp;&nbsp;Projets</a></li>
+					<li><a href="contact.php"><img src="img/icons/email.png"
+							width="21px" height="21px"> &nbsp;Contact</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</header>
+
+	<div id="index">
+		<div class="index_container">
+
+			<div class="bouton_index" id="bloc_index_accueil">
+				<div class="bloc_titre">
+					<a href="presentation.html">À Propos</a>
+				</div>
+				<a href="presentation.html"><img src="img/propos2.png" alt="CV"
+					height="89px" width="90px"
+					style="width: 100px; float: left; height: 110px; margin-left: -10px; margin-top: 80px; margin-bottom: 130px; margin-right: 10px" /></a>
+
+				<div class="space"></div>
+
+				<a href="javascript:close('passion'),visibilite('presentation');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>Présentation
+				</strong></a><br />
+				<div id="presentation" style="display: yes">
+					<div class="space"></div>
+
+					Flavien Bert - Etudiant français de 21 ans.<br /> <br />
+					Actuellement en 4ème année à CPE Lyon (Ecole d'ingénieur en
+					Eléctronique et Informatique), je suis à la recherche d'une année
+					de césure dans un pays anglophone.
+				</div>
+				<div class="space"></div>
+
+				<a href="javascript:close('presentation'),visibilite('passion');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>Passions
+				</strong></a><br />
+				<div id="passion" style="display: none">
+					<div class="space"></div>
+					Je m'intéresse au développement Web et à la création d'application
+					sur Android.<br /> <br /> Ayant pratiqué le tennis de table en
+					compétition pendant six années (2003-2009), cela m'a donné le goût
+					aux activités sportives.<br />
+
+					<div class="space"></div>
+
+				</div>
+
+			</div>
+
+
+			<div class="bouton_index" id="bloc_index_cv">
+
+				<div class="bloc_titre">
+					<a href="cv.php">CV</a>
+				</div>
+				<a href="cv.php"><img src="img/icons/cv3.png" alt="CV"
+					height="89px" width="100px"
+					style="width: 100px; float: left; height: 150px; margin-left: -10px; margin-top: 80px; margin-bottom: 130px; margin-right: 10px" /></a>
+
+				<div class="space"></div>
+				<a
+					href="javascript:close('p2'),close('p3'),close('p4'),close('p5'),visibilite('p1');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>
+						Langages de programmation</strong></a><br />
+				<div id="p1" style="display:">
+					<div class="space"></div>
+
+					<table>
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C++ :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jQuery :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML/CSS
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SQL :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHP :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assembleur
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="space"></div>
+
+				<a
+					href="javascript:close('p1'),close('p3'),close('p4'),close('p5'),visibilite('p2');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>
+						Logiciels</strong></a><br />
+				<div id="p2" style="display: none">
+					<div class="space"></div>
+
+					<table>
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qt
+								Creator:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eclipse
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIM :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pspice :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latex :
+							</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SVN :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Power
+								Point :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matlab :</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excel :
+							</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+					</table>
+
+				</div>
+				<div class="space"></div>
+
+				<a
+					href="javascript:close('p1'),close('p2'),close('p4'),close('p5'),visibilite('p3');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>
+						Systèmes d'Exploitation</strong></a><br />
+				<div id="p3" style="display: none">
+					<div class="space"></div>
+
+					<table>
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Window XP/seven :</td>
+							<td>&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux(Debian) :</td>
+							<td>&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Android :</td>
+							<td>&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+					</table>
+				</div>
+				<div class="space"></div>
+
+				<a
+					href="javascript:close('p1'),close('p2'),close('p3'),close('p5'),visibilite('p4');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>
+						Langues</strong></a><br />
+				<div class="space"></div>
+
+				<div id="p4" style="display: none">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>ANGLAIS:</em>
+					<table>
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lu
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parlé
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Écrit
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+					</table>
+					<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>ESPAGNOL:</em>
+					<table>
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lu
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parlé
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Écrit
+								:</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile2.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+					</table>
+				</div>
+				<div class="space"></div>
+
+				<a
+					href="javascript:close('p1'),close('p2'),close('p3'),close('p4'),visibilite('p5');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>
+						Loisirs</strong></a><br />
+				<div class="space"></div>
+
+				<div id="p5" style="display: none">
+					<table>
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Foot :</td>
+							<td>&nbsp;&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tennis de
+								table :</td>
+							<td>&nbsp;&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" />
+							</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeux vidéo :</td>
+							<td>&nbsp;&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Séries et
+								Films :</td>
+							<td>&nbsp;&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informatique :</td>
+							<td>&nbsp;&nbsp;&nbsp;<img src="img/etoile.png" width="14px"
+								height="14px" alt="etoile" /><img src="img/etoile.png"
+								width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /><img
+								src="img/etoile.png" width="14px" height="14px" alt="etoile" /></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+			<div class="bouton_index" id="bloc_index_projet">
+				<div class="bloc_titre">
+					<a href="projet.php">Projets</a>
+				</div>
+				<a href="projet.php"><img src="img/icons/projet2.png" alt="CV"
+					height="89px" width="80px"
+					style="width: 80px; float: left; height: 110px; margin-left: 0px; margin-top: 80px; margin-bottom: 130px; margin-right: 10px" /></a>
+
+				<div class="space"></div>
+
+				<a
+					href="javascript:close('quaternions'),close('dijkstra'),close('pepite_land'),visibilite('notecpe');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>Notes
+						CPE (application Android) </strong></a><br />
+				<div id="notecpe" style="display: yes">
+					<div class="space"></div>
+					Avec deux collègues, nous avons implémenté une application Android
+					permettant aux étudiants de CPE Lyon d'avoir accès à leurs notes
+					rapidement.
+				</div>
+				<div class="space"></div>
+
+
+				<a
+					href="javascript:close('pepite_land'),close('notecpe'),close('quaternions'),visibilite('dijkstra');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>Dijkstra
+						(C++/C) </strong></a><br />
+				<div id="dijkstra" style="display: none">
+					<div class="space"></div>
+
+					Dans le cadre du cours "graphes et algorithmes", nous avons choisi
+					de coder en C/C++, l'algorithme de dijkstra et des k-plus courts
+					chemins.
+				</div>
+				<div class="space"></div>
+				<a
+					href="javascript:close('quaternions'),close('notecpe'),close('dijkstra'),visibilite('pepite_land');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>jeu
+						vidéo 2D (C++) </strong></a><br />
+				<div id="pepite_land" style="display: none">
+					<div class="space"></div>
+					Lors de ma première année d'école d'ingénieur, mon collègue et moi
+					avons implémenté un jeu vidéo 2D en C++ en utilisant le FrameWork
+					Qt nommé Pepite Land.
+				</div>
+				<div class="space"></div>
+				<a
+					href="javascript:close('pepite_land'),close('notecpe'),close('dijkstra'),visibilite('quaternions');"><img
+					src="img/icons/zoomAvant.png" width="14px" height="14px"><strong>Quaternions
+						(C++) </strong></a><br />
+				<div id="quaternions" style="display: none">
+					<div class="space"></div>
+					Pendant ma première année d'école d'ingénieur, avec deux collègues,
+					nous avons codé une simulation de rotation 3D en utilisant les
+					quaternions.
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.gallery.js"></script>
+
+</body>
+</html>
